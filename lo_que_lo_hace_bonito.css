@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra_arriba {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nombre {
+    margin-left: 30px;
+}
+
+.nombre a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra_arriba a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.header {
+    height: 60vh !important;
+    background: url(https://img.freepik.com/foto-gratis/grafico-mercado-valores-datos-financieros-placa-electronica-pantalla-ordenador-portatil_169016-14898.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+
+
+
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(https://tuinviertes.com/wp-content/uploads/sites/43/2020/05/ali-yahya-ytNFYf4d_30-unsplash.jpg) no-repeat ;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+
+.REFERENCIAS {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .barra_arriba {
+        display: none;
+    }
+   
+    
+}
